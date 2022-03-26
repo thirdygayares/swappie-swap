@@ -1,9 +1,12 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
 
 //my own import
 import '../components/horizontal_listview.dart';
 import 'components/menu.dart';
+import 'homepage/popular.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -88,9 +91,77 @@ class _HomePageState extends State<HomePage> {
 
           //Horizontal list view begins here
           HorizontalList(),
+
+          SizedBox(height: 8.0),
+
+//popular Item
+          Padding(
+            padding: const EdgeInsets.fromLTRB(10, 0, 5, 4),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Container(
+                  color: Color.fromARGB(255, 22, 1, 97),
+                  alignment: Alignment.centerLeft,
+                  child: Padding(
+                    padding: const EdgeInsets.fromLTRB(10, 5, 10, 5),
+                    child: Text(
+                      'Popular Items',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 15.0,
+                      ),
+                    ),
+                  ),
+                ),
+                Container(
+                  child: InkWell(
+                    child: Padding(
+                      padding: const EdgeInsets.fromLTRB(0, 0, 5, 0),
+                      child: Text(
+                        'See More>',
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 12.0,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+
+          PopularWidget(),
         ],
       ),
     );
     return scaffold;
+  }
+}
+
+class TitleTemplates extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      margin: EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0),
+      child: Padding(
+        padding: const EdgeInsets.all(12.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: <Widget>[
+            Text(
+              'popoular',
+              style: TextStyle(
+                fontSize: 18.0,
+                color: Colors.grey[600],
+              ),
+            ),
+            SizedBox(height: 6.0),
+          ],
+        ),
+      ),
+    );
   }
 }
