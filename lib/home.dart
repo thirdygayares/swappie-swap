@@ -39,29 +39,7 @@ class _HomePageState extends State<HomePage> {
       ),
     );
 
-    var scaffold = Scaffold(
-      appBar: AppBar(
-        elevation: 0.1,
-        backgroundColor: Color.fromARGB(255, 22, 1, 97),
-        title: Text('Swappie'),
-        actions: <Widget>[
-          IconButton(
-              icon: Icon(
-                Icons.search,
-                color: Colors.white,
-              ),
-              onPressed: () {}),
-          IconButton(
-              icon: Icon(
-                Icons.notifications,
-                color: Colors.white,
-              ),
-              onPressed: () {}),
-        ],
-      ),
-      drawer: Drawer(
-        child: newDrawer(),
-      ),
+  
       body: ListView(
         children: <Widget>[
           //image carousel begin here
@@ -133,7 +111,10 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
 
-          PopularWidget(),
+          Container(
+            height: 320.0,
+            child: PopularWidget(),
+          ),
         ],
       ),
     );
