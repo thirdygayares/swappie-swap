@@ -79,6 +79,14 @@ flutter:
    - images/products/shoes.jpg
    - images/products/
    - images/products/iphone.jpg
+   - images/products/popular/plasticshoebox.png
+   - images/products/popular/visvim.png
+   - images/products/popular/petcage.png
+   - images/products/popular/historybook.png
+   - images/products/popular/car.png
+   - images/products/popular/toolset.png
+   - images/products/popular/grocerytollbag.png
+   - images/products/popular/laptop.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

@@ -7,6 +7,7 @@ import 'package:carousel_pro/carousel_pro.dart';
 import '../components/horizontal_listview.dart';
 import 'components/menu.dart';
 import 'homepage/popular.dart';
+import 'homepage/popular_items.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -19,7 +20,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     Widget image_carousel = Container(
-      height: 100.0,
+      height: 150.0,
       child: Carousel(
         boxFit: BoxFit.cover,
         images: [
@@ -39,7 +40,7 @@ class _HomePageState extends State<HomePage> {
       ),
     );
 
-  
+    var scaffold = Scaffold(
       body: ListView(
         children: <Widget>[
           //image carousel begin here
@@ -111,9 +112,11 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
 
+          SizedBox(height: 10),
+
           Container(
-            height: 320.0,
-            child: PopularWidget(),
+            // color: Colors.black,
+            child: PopularItems(),
           ),
         ],
       ),

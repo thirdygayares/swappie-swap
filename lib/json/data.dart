@@ -36,36 +36,46 @@ const List<Map<String, Object>> categories = [
   },
 ];
 
-const List<Map<String, Object>> recommends = [
+const List<Map<String, Object>> popular = [
   {
-    'title': 'Summer Loose Korean T-shirt',
-    'price': '30',
-    'imgUrl':
-        'https://images.unsplash.com/photo-1581044777550-4cfa60707c03?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
+    'title': 'Plastic Shoe Box',
+    'Location': 'Pasig',
+    'img': 'images/products/popular/plasticshoebox.png',
   },
   {
-    'title': 'Bat Sleeve Student T-shirt Summer',
-    'price': '35',
-    'imgUrl':
-        'https://images.unsplash.com/photo-1545291730-faff8ca1d4b0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjd8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
+    'title': 'visvim x mastermind',
+    'Location': 'Pateros',
+    'img': 'images/products/popular/visvim.png',
   },
   {
-    'title': 'Summer New Korean Version',
-    'price': '25',
-    'imgUrl':
-        'https://images.unsplash.com/photo-1562572159-4efc207f5aff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60',
+    'title': 'Pet Cage',
+    'Location': 'Laguna',
+    'img': 'images/products/popular/petcage.png',
   },
   {
-    'title': 'Loose-fitting Outside Shirt',
-    'price': '30',
-    'imgUrl':
-        'https://images.unsplash.com/photo-1503185912284-5271ff81b9a8?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
+    'title': 'History Books',
+    'Location': 'Davao',
+    'img': 'images/products/popular/historybook.png',
   },
   {
-    'title': 'Cotton Short-sleeved T-shirt',
-    'price': '20',
-    'imgUrl':
-        'https://images.unsplash.com/photo-1541257710737-06d667133a53?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
+    'title': 'Cars Toyota',
+    'Location': 'Makati',
+    'img': 'images/products/popular/car.png',
+  },
+  {
+    'title': 'Tools Set',
+    'Location': 'Paranaque',
+    'img': 'images/products/popular/toolset.png',
+  },
+  {
+    'title': 'Grocery Trolley Bag',
+    'Location': 'Isabela',
+    'img': 'images/products/popular/grocerytollbag.png',
+  },
+  {
+    'title': 'Dell Laptop',
+    'Location': 'CSJDM',
+    'img': 'images/products/popular/laptop.png',
   }
 ];
 

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:swawppie/home.dart';
 import 'theme/colors.dart';
 import 'json/data.dart';
 
@@ -14,7 +15,49 @@ class _RootAppState extends State<RootApp> {
   AppBar? appbar = null;
   @override
   Widget build(BuildContext context) {
-    return Scaffold(bottomNavigationBar: getFooter(), appBar: getAppBar());
+    return Scaffold(
+      bottomNavigationBar: getFooter(),
+      appBar: getAppBar(),
+      body: getBody(),
+      // floatingActionButton: FloatingActionButton(
+      //   child: Icon(Icons.add),
+      //   onPressed: () {},
+      // ),
+      // floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+    );
+  }
+
+  Widget getBody() {
+    return IndexedStack(
+      index: activeTab,
+      children: [
+        HomePage(),
+        Center(
+          child: Text(
+            "swapmatching",
+            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+          ),
+        ),
+        Center(
+          child: Text(
+            "upload",
+            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+          ),
+        ),
+        Center(
+          child: Text(
+            "Messages",
+            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+          ),
+        ),
+        Center(
+          child: Text(
+            "Account",
+            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+          ),
+        ),
+      ],
+    );
   }
 
   getAppBar() {
