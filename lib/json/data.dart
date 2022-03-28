@@ -95,63 +95,60 @@ const List<Map<String, Object>> popular = [
   }
 ];
 
-
-
-
 const List<Map<String, Object>> recent = [
   {
-    'title': 'Plastic Shoe Box ',
+    'title': 'Vans Shoes',
     'Location': 'Pateros',
-    'img': 'images/products/popular/plasticshoebox.png',
+    'img': 'images/products/recent/vans_shoes.png',
     'message_count': '5',
     'likes_count': '56',
   },
   {
     'title': 'visvim x mastermind',
-    'Location': 'Makati',
-    'img': 'images/products/popular/visvim.png',
+    'Location': 'Vince Camuto Watch',
+    'img': 'images/products/recent/vince watch.png',
     'message_count': '2',
     'likes_count': '27',
   },
   {
-    'title': 'Pet Cage',
+    'title': 'Beach Tote Bag',
     'Location': 'Pasig',
-    'img': 'images/products/popular/petcage.png',
+    'img': 'images/products/recent/beach_tote.png',
     'message_count': '5',
     'likes_count': '44',
   },
   {
-    'title': 'History Books',
+    'title': 'Zara Croptop Polo',
     'Location': 'CSJDM',
-    'img': 'images/products/popular/historybook.png',
+    'img': 'images/products/recent/zara_crop.png',
     'message_count': '15',
     'likes_count': '42',
   },
   {
-    'title': 'Cars Toyota',
+    'title': 'Zabala Drums Brands',
     'Location': 'Malolos',
-    'img': 'images/products/popular/car.png',
+    'img': 'images/products/recent/drums.png',
     'message_count': '20',
     'likes_count': '30',
   },
   {
-    'title': 'Tools Set',
+    'title': 'Samsung Printer',
     'Location': 'Naic',
-    'img': 'images/products/popular/toolset.png',
+    'img': 'images/products/recent/printer.png',
     'message_count': '19',
     'likes_count': '12',
   },
   {
-    'title': 'Grocery Trolley Bag',
+    'title': 'Lacoste Longsleeve',
     'Location': 'Isabela',
-    'img': 'images/products/popular/grocerytollbag.png',
+    'img': 'images/products/recent/lacoste_longsleeve.png',
     'message_count': '2',
     'likes_count': '10',
   },
   {
-    'title': 'Dell Laptop',
+    'title': 'Lawn Mower',
     'Location': 'CSJDM',
-    'img': 'images/products/popular/laptop.png',
+    'img': 'images/products/recent/lawn_mower.png',
     'message_count': '1',
     'likes_count': '8',
   }
