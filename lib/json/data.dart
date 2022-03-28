@@ -38,44 +38,122 @@ const List<Map<String, Object>> categories = [
 
 const List<Map<String, Object>> popular = [
   {
-    'title': 'Plastic Shoe Box',
+    'title': 'Plastic Shoe Box ',
     'Location': 'Pasig',
     'img': 'images/products/popular/plasticshoebox.png',
+    'message_count': '5',
+    'likes_count': '56',
   },
   {
     'title': 'visvim x mastermind',
     'Location': 'Pateros',
     'img': 'images/products/popular/visvim.png',
+    'message_count': '2',
+    'likes_count': '27',
   },
   {
     'title': 'Pet Cage',
     'Location': 'Laguna',
     'img': 'images/products/popular/petcage.png',
+    'message_count': '5',
+    'likes_count': '44',
   },
   {
     'title': 'History Books',
     'Location': 'Davao',
     'img': 'images/products/popular/historybook.png',
+    'message_count': '15',
+    'likes_count': '42',
   },
   {
     'title': 'Cars Toyota',
     'Location': 'Makati',
     'img': 'images/products/popular/car.png',
+    'message_count': '20',
+    'likes_count': '30',
   },
   {
     'title': 'Tools Set',
-    'Location': 'Paranaque',
+    'Location': 'Pasig',
     'img': 'images/products/popular/toolset.png',
+    'message_count': '19',
+    'likes_count': '12',
   },
   {
     'title': 'Grocery Trolley Bag',
     'Location': 'Isabela',
     'img': 'images/products/popular/grocerytollbag.png',
+    'message_count': '2',
+    'likes_count': '10',
   },
   {
     'title': 'Dell Laptop',
     'Location': 'CSJDM',
     'img': 'images/products/popular/laptop.png',
+    'message_count': '1',
+    'likes_count': '8',
+  }
+];
+
+
+
+
+const List<Map<String, Object>> recent = [
+  {
+    'title': 'Plastic Shoe Box ',
+    'Location': 'Pateros',
+    'img': 'images/products/popular/plasticshoebox.png',
+    'message_count': '5',
+    'likes_count': '56',
+  },
+  {
+    'title': 'visvim x mastermind',
+    'Location': 'Makati',
+    'img': 'images/products/popular/visvim.png',
+    'message_count': '2',
+    'likes_count': '27',
+  },
+  {
+    'title': 'Pet Cage',
+    'Location': 'Pasig',
+    'img': 'images/products/popular/petcage.png',
+    'message_count': '5',
+    'likes_count': '44',
+  },
+  {
+    'title': 'History Books',
+    'Location': 'CSJDM',
+    'img': 'images/products/popular/historybook.png',
+    'message_count': '15',
+    'likes_count': '42',
+  },
+  {
+    'title': 'Cars Toyota',
+    'Location': 'Malolos',
+    'img': 'images/products/popular/car.png',
+    'message_count': '20',
+    'likes_count': '30',
+  },
+  {
+    'title': 'Tools Set',
+    'Location': 'Naic',
+    'img': 'images/products/popular/toolset.png',
+    'message_count': '19',
+    'likes_count': '12',
+  },
+  {
+    'title': 'Grocery Trolley Bag',
+    'Location': 'Isabela',
+    'img': 'images/products/popular/grocerytollbag.png',
+    'message_count': '2',
+    'likes_count': '10',
+  },
+  {
+    'title': 'Dell Laptop',
+    'Location': 'CSJDM',
+    'img': 'images/products/popular/laptop.png',
+    'message_count': '1',
+    'likes_count': '8',
   }
 ];
 

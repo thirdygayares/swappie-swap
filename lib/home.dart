@@ -113,7 +113,7 @@ class _HomePageState extends State<HomePage> {
           ),
 
           SizedBox(height: 10),
-
+          SizedBox(width: 10),
           Container(
             // color: Colors.black,
             child: PopularItems(),
