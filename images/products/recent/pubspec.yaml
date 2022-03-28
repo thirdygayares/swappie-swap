@@ -87,23 +87,6 @@ flutter:
    - images/products/popular/toolset.png
    - images/products/popular/grocerytollbag.png
    - images/products/popular/laptop.png
-   - images/products/recent/vans_shoes.png
-   - images/products/recent/vince_watch.png
-   - images/products/recent/beach_tote.png
-   - images/products/recent/zara_crop.png
-   - images/products/recent/drums.png
-   - images/products/recent/printer.png
-   - images/products/recent/lacoste_longsleeve.png
-   - images/products/recent/lawn_mower.png
-   - images/products/reccomended/wire.png
-   - images/products/reccomended/jar.png
-   - images/products/reccomended/souveneir.png
-   - images/products/reccomended/watch_holder.png
-   - images/products/reccomended/dress.png
-   - images/products/reccomended/mountain_bike.png
-   - images/products/reccomended/ukelele.png
-   - images/products/reccomended/boxing_gloves.png
-
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

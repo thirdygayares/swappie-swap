@@ -1,7 +1,9 @@
 import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
+import 'package:swawppie/homepage/reccomended_items.dart';
+import 'package:swawppie/homepage/recent_items.dart';
+import 'package:swawppie/search.dart';
 
 //my own import
 import '../components/horizontal_listview.dart';
@@ -43,6 +45,8 @@ class _HomePageState extends State<HomePage> {
     var scaffold = Scaffold(
       body: ListView(
         children: <Widget>[
+          SearchButton(),
+
           //image carousel begin here
           image_carousel,
           //categories Text
@@ -118,6 +122,90 @@ class _HomePageState extends State<HomePage> {
             // color: Colors.black,
             child: PopularItems(),
           ),
+
+          SizedBox(height: 8.0),
+
+//Recent Item
+          Padding(
+            padding: const EdgeInsets.fromLTRB(10, 0, 5, 4),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Container(
+                  color: Color.fromARGB(255, 22, 1, 97),
+                  alignment: Alignment.centerLeft,
+                  child: Padding(
+                    padding: const EdgeInsets.fromLTRB(10, 5, 10, 5),
+                    child: Text(
+                      'Recent Items',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 15.0,
+                      ),
+                    ),
+                  ),
+                ),
+                Container(
+                  child: InkWell(
+                    child: Padding(
+                      padding: const EdgeInsets.fromLTRB(0, 0, 5, 0),
+                      child: Text(
+                        'See More>',
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 12.0,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+
+          SizedBox(height: 10),
+          SizedBox(width: 10),
+          Container(
+            // color: Colors.black,
+            child: RecentItems(),
+          ),
+
+          SizedBox(height: 8.0),
+
+//Recent Item
+          Padding(
+            padding: const EdgeInsets.fromLTRB(20, 10, 20, 10),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  color: Color.fromARGB(255, 22, 1, 97),
+                  alignment: Alignment.centerLeft,
+                  child: Padding(
+                    padding: const EdgeInsets.fromLTRB(100, 10, 100, 10),
+                    child: Text(
+                      'Recommended For You',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 15.0,
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+
+          SizedBox(height: 10),
+          SizedBox(width: 10),
+          Container(
+            // color: Colors.black,
+            child: ReccomendedItems(),
+          ),
+
+          SizedBox(height: 10),
         ],
       ),
     );

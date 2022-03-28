@@ -63,25 +63,37 @@ class _RootAppState extends State<RootApp> {
   getAppBar() {
     switch (activeTab) {
       case 0:
-        return AppBar(
-          elevation: 0.1,
-          backgroundColor: Color.fromARGB(255, 22, 1, 97),
-          title: Text('Swappie'),
-          actions: <Widget>[
-            IconButton(
-                icon: Icon(
-                  Icons.search,
-                  color: Colors.white,
-                ),
-                onPressed: () {}),
-            IconButton(
-                icon: Icon(
-                  Icons.notifications,
-                  color: Colors.white,
-                ),
-                onPressed: () {}),
-          ],
-        );
+        appbar = null;
+        // return AppBar(
+        //   elevation: 0.1,
+        //   backgroundColor: Color.fromARGB(255, 22, 1, 97),
+        //   actions: <Widget>[
+        //     Padding(
+        //       padding: const EdgeInsets.all(20.0),
+        //       child: Row(
+        //         children: [
+        //           Flexible(
+        //               child: Container(
+        //             height: 45,
+        //             decoration: BoxDecoration(color: grey.withOpacity(0.2)),
+        //           ))
+        //         ],
+        //       ),
+        //     ),
+        //     IconButton(
+        //         icon: Icon(
+        //           Icons.search,
+        //           color: Colors.white,
+        //         ),
+        //         onPressed: () {}),
+        //     IconButton(
+        //         icon: Icon(
+        //           Icons.notifications,
+        //           color: Colors.white,
+        //         ),
+        //         onPressed: () {}),
+        //   ],
+        // );
         break;
       case 1:
         appbar = null;

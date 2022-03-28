@@ -105,8 +105,8 @@ const List<Map<String, Object>> recent = [
   },
   {
     'title': 'visvim x mastermind',
-    'Location': 'Vince Camuto Watch',
-    'img': 'images/products/recent/vince watch.png',
+    'Location': 'Taguig',
+    'img': 'images/products/recent/vince_watch.png',
     'message_count': '2',
     'likes_count': '27',
   },
@@ -154,36 +154,62 @@ const List<Map<String, Object>> recent = [
   }
 ];
 
-const List<Map<String, Object>> recently = [
+const List<Map<String, Object>> reccomended = [
   {
-    'title': 'Summer Loose Korean T-shirt',
-    'price': '30',
-    'imgUrl':
-        'https://images.unsplash.com/photo-1475180098004-ca77a66827be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTd8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
+    'title': 'Extension',
+    'Location': 'Pateros',
+    'img': 'images/products/reccomended/wire.png',
+    'message_count': '5',
+    'likes_count': '56',
   },
   {
-    'title': 'Bat Sleeve Student T-shirt Summer',
-    'price': '35',
-    'imgUrl':
-        'https://images.unsplash.com/photo-1563826904577-6b72c5d75e53?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTQzfHxmYXNoaW9ufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
+    'title': 'Jar',
+    'Location': 'Taguig',
+    'img': 'images/products/reccomended/jar.png',
+    'message_count': '2',
+    'likes_count': '27',
   },
   {
-    'title': 'Summer New Korean Version',
-    'price': '25',
-    'imgUrl':
-        'https://images.unsplash.com/photo-1485462537746-965f33f7f6a7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjZ8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
+    'title': 'Souveneir',
+    'Location': 'Pasig',
+    'img': 'images/products/reccomended/souveneir.png',
+    'message_count': '5',
+    'likes_count': '44',
   },
   {
-    'title': 'Loose-fitting Outside Shirt',
-    'price': '30',
-    'imgUrl':
-        'https://images.unsplash.com/photo-1533407411655-dcce1534c1a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=376&q=80',
+    'title': 'Watch Holder',
+    'Location': 'CSJDM',
+    'img': 'images/products/reccomended/watch_holder.png',
+    'message_count': '15',
+    'likes_count': '42',
   },
   {
-    'title': 'Cotton Short-sleeved T-shirt',
-    'price': '20',
-    'imgUrl':
-        'https://images.unsplash.com/photo-1507007727303-1532f71109cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
+    'title': 'Goods Mountain bike',
+    'Location': 'Malolos',
+    'img': 'images/products/reccomended/mountain_bike.png',
+    'message_count': '20',
+    'likes_count': '30',
+  },
+  {
+    'title': 'Unique ukelele',
+    'Location': 'Naic',
+    'img': 'images/products/reccomended/ukelele.png',
+    'message_count': '19',
+    'likes_count': '12',
+  },
+  {
+    'title': 'Pacman Gloves',
+    'Location': 'Isabela',
+    'img': 'images/products/reccomended/boxing_gloves.png',
+    'message_count': '2',
+    'likes_count': '10',
+  },
+  {
+    'title': 'Lanaban Dress',
+    'Location': 'CSJDM',
+    'img': 'images/products/reccomended/dress.png',
+    'message_count': '1',
+    'likes_count': '8',
   }
 ];
 
