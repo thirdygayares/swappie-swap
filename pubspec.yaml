@@ -34,6 +34,10 @@ dependencies:
   font_awesome_flutter: ^8.8.1
   carousel_slider: ^1.3.1
   flutter_icons: ^1.1.0
+  flutter_tindercard: ^0.2.0
+  line_icons:
+  flutter_svg:
+  flutter_custom_clippers: ^1.1.2
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -103,7 +107,7 @@ flutter:
    - images/products/reccomended/mountain_bike.png
    - images/products/reccomended/ukelele.png
    - images/products/reccomended/boxing_gloves.png
-
+   - images/logo.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
