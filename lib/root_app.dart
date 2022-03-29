@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:swawppie/home.dart';
+import 'package:swawppie/swap_matching.dart';
 import 'theme/colors.dart';
 import 'json/data.dart';
 
@@ -32,6 +33,7 @@ class _RootAppState extends State<RootApp> {
       index: activeTab,
       children: [
         HomePage(),
+        SwapMatching(),
         Center(
           child: Text(
             "swapmatching",
