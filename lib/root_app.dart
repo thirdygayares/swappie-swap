@@ -36,12 +36,6 @@ class _RootAppState extends State<RootApp> {
         SwapMatching(),
         Center(
           child: Text(
-            "swapmatching",
-            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-          ),
-        ),
-        Center(
-          child: Text(
             "upload",
             style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
           ),

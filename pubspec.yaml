@@ -111,6 +111,12 @@ flutter:
    - images/profile/thirdy.jpg
    - images/close_icon.svg
    - images/like_icon.svg
+   - images/swap-icon.svg
+   - images/swap/bag.jpg
+   - images/swap/camera.jpg
+   - images/swap/glass.jpg
+   - images/swap/shoes.jpg
+   - images/swap/lamp.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

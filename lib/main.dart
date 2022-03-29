@@ -11,7 +11,7 @@ void main() {
     debugShowCheckedModeBanner: false,
     title: 'Opening Screen',
     routes: AppRoutes.define(),
-    // home: OpeningView(),
-    home: RootApp(),
+    home: OpeningView(),
+    // home: RootApp(),
   ));
 }

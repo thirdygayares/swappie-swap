@@ -36,7 +36,7 @@ class _LoginState extends State<Login> {
         color: Colors.white,
       ),
       decoration: InputDecoration(
-        hintText: 'novem@gmail.com',
+        hintText: 'your@gmail.com',
         labelText: 'Email',
         labelStyle: TextStyle(
           color: Colors.white,

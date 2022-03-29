@@ -38,6 +38,7 @@ const Color black = Color(0xff000000);
 const Color white = Color(0xffffffff);
 const Color blue = Color(0xff0D47A1);
 const Color grey = Color(0xffbdbdbd);
+const Color green = Color.fromARGB(255, 5, 187, 75);
 const Color lineWhite = Color(0xffececec);
 const Color lineGrey = Color(0xffbdbdbd);
 const Color lineTextGrey = Color(0xff9E9E9E);
