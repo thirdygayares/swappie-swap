@@ -1,4 +1,4 @@
-# swawppie
+# Swappie
 
 A new Flutter project.
 
